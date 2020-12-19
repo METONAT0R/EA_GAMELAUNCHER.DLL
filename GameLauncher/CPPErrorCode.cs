@@ -1,0 +1,21 @@
+namespace GameLauncher
+{
+	public enum CPPErrorCode
+	{
+		SZ_OK = 0,
+		SZ_ERROR_DATA = 1,
+		SZ_ERROR_MEM = 2,
+		SZ_ERROR_CRC = 3,
+		SZ_ERROR_UNSUPPORTED = 4,
+		SZ_ERROR_PARAM = 5,
+		SZ_ERROR_INPUT_EOF = 6,
+		SZ_ERROR_OUTPUT_EOF = 7,
+		SZ_ERROR_READ = 8,
+		SZ_ERROR_WRITE = 9,
+		SZ_ERROR_PROGRESS = 10,
+		SZ_ERROR_FAIL = 11,
+		SZ_ERROR_THREAD = 12,
+		SZ_ERROR_ARCHIVE = 0x10,
+		SZ_ERROR_NO_ARCHIVE = 17
+	}
+}
